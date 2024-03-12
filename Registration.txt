@@ -1,0 +1,79 @@
+<html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type=text]{
+            width: 400px;
+            height: 40px;
+            margin-left: 30px;
+            margin-top: 10px;
+            border:none ;
+            border-bottom: 1px solid black;
+            
+        }
+        input[type=submit]{
+            
+            color: white;
+            text-align: center;
+            width: 650px;
+            height: 40px;
+            background-color: darkgreen;
+        } 
+        form{
+           
+            border-radius: 4px;
+            border: 1px solid black;
+           margin-left: 30%;
+            height: 500px;
+            width: 700px;
+            margin-top: 60px;
+        } 
+       h3{
+        margin-left: 10px;
+       }
+       h1{
+        margin-left: 15px;
+       }
+      input[type=password]{
+        width: 400px;
+            height: 40px;
+            border:none;
+            margin-top: 10px;
+            margin-left: 30px;
+            border-bottom: 1px solid black;
+
+      }
+     .paragraph{
+        margin-left: 15px;
+        margin-left: 30px;
+      }
+      label{
+        margin-left: 30px;
+        color: white;
+      }
+      
+    </style>
+</head>
+<body>
+    <form>
+    <h1>Register</h1>
+    <p class="paragraph">Please fill in this form to create an account</p>
+   
+        <label>Email</label><br>
+    <input type="text" name="e" value="" placeholder="Email"/><br><br>
+        <label> Password</label><br> 
+    <input type="password" name="p" value="" placeholder="Password" required=""/></label><br><br>
+    <label>Repeat Password</label><br>
+    <input type="password" name="p" value="" placeholder="Repeat Password" required="Please enter password"/><br><br>
+    <center>
+    <p>By creating an account you agree to out <a href="">Terms and Privacy</a></p>
+    
+    <input type="submit" name="s" value="Submit" >
+</center>
+</form>
+
+</body>
+</html>
